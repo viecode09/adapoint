@@ -1,0 +1,6 @@
+node_modules
+upload/*.*
+.log/*.json
+.buffer/*.*
+.DS_Store
+ecosystem.config.js

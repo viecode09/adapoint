@@ -1,0 +1,10 @@
+const path = require("path");
+
+const home = "src/middleware/sequelize";
+
+module.exports = {
+  config: path.resolve(`${home}`, "config.js"),
+  "models-path": path.resolve(`${home}`, "models"),
+  "seeders-path": path.resolve(`${home}`, "seeders"),
+  "migrations-path": path.resolve(`${home}`, "migrations"),
+};
