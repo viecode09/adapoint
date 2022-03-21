@@ -1,0 +1,40 @@
+{
+  "name": "adapoint-client",
+  "version": "0.0.1",
+  "description": "Adapoint Web Client App",
+  "author": "Satrio A. Cesiojakty <satrioarbiyudho@gmail.com>",
+  "license": "BSD",
+  "private": true,
+  "scripts": {
+    "ngoding": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "static": "nuxt build && nuxt generate",
+    "poststatic": "nuxt start"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxtjs/auth-next": "^5.0.0-1624817847.21691f1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/eslint-config": "^8.0.0",
+    "@nuxtjs/eslint-config-typescript": "^8.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/toast": "^3.3.1",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^3.1.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "nuxt": "^2.15.8",
+    "nuxt-highcharts": "^2.0.2",
+    "vue-qr": "^2.5.0",
+    "vue-qrcode-reader": "^3.0.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/device": "^2.1.0",
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "eslint-plugin-jest": "^26.1.0"
+  }
+}
