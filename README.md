@@ -1,2 +1,11 @@
-# adapoint
-This Repository for Adapoint Project purpose
+# Adapoint App
+
+Adapoint App repository.
+
+## Prerequisites
+
+TBD.
+
+## Initialization
+
+TBD.
